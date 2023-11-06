@@ -1,0 +1,60 @@
+
+[1m[37mCS344 Program 3 Grading Script(B[m
+
+
+[37mcomments [34m(5 pts)
+[32m  PASS [90mcomments are not printed
+
+[37mcommand execution [34m(10 pts)
+[32m  PASS [90mexecuted successfully
+
+[37moutput redirection [34m(15 pts)
+[32m  PASS [90mfile exists and content is correct
+
+[37minput redirection [34m(15 pts)
+[32m  PASS [90moutput is correct
+
+[37minput and output redirection [34m(10 pts)
+[32m  PASS [90mfile exists and content is correct
+
+[37mstatus command [34m(10 pts)
+[32m  PASS [90merror status correctly reported
+
+[37minput redirection with nonexistent file [34m(10 pts)
+Error opening file for input/output redirection
+[32m  PASS [90merror status correctly reported
+
+[37mnonexistent command [34m(10 pts)
+Command not recognized
+[32m  PASS [90merror status correctly reported
+
+[37mbackground command PID on creation [34m(10 pts)
+[32m  PASS [90mbackground pid correctly reported
+
+[37mbackground command PID on termination [34m(10 pts)
+[32m  PASS [90mbackground pid correctly reported
+
+[37mbackground command termination signal [34m(10 pts)
+[32m  PASS [90mtermination signal correctly reported
+
+[37mbackground command PID on completion [34m(10 pts)
+[32m  PASS [90mbackground pid correctly reported
+
+[37mbackground command exit code [34m(10 pts)
+[32m  PASS [90mexit status correctly reported
+
+[37mimplicit cd to homedir [34m(5 pts)
+[32m  PASS [90mchanged to home directory
+
+[37mcd to homedir [34m(5 pts)
+[32m  PASS [90mchanged to correct directory
+
+[37mpid variable replacement [34m(5 pts)
+[32m  PASS [90mpid var correctly replaced
+
+[37mforeground-only mode [34m(20 pts)
+[32m  PASS [90mtimes are correctly 2 seconds apart
+
+[1m[37mFINAL SCORE: [34m170[37m / 170(B[m
+
+(B[m
